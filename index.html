@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>My Website</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="icon" href="./favicon.ico" type="image/x-icon" />
+  </head>
+  <body>
+    <main>
+      <h1 data-testid="slackUserName">Kenbridge</h1>
+      <section>
+        <img src="dp.jpg" alt="Kenbridge" data-testid="slackDisplayImage" />
+      </section>
+      <section>
+        <p data-testid="currentDayOfTheWeek">
+          Current Day: <span id="current-day">fri</span>
+        </p>
+        <p data-testid="currentUTCTime">
+          UTC Time: <span id="utc-time">67</span>
+        </p>
+        <p data-testid="myTrack">Track: <span id="my-track">Frontend</span></p>
+        <p data-testid="githubURL">
+          Github Url: <span id="github-url">link</span>
+        </p>
+      </section>
+    </main>
+    <script src="main.js"></script>
+  </body>
+</html>

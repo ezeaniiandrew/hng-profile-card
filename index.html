@@ -11,19 +11,26 @@
   <body>
     <main>
       <h1 data-testid="slackUserName">Kenbridge</h1>
+
+      <img src="dp.jpeg" alt="Kenbridge" data-testid="slackDisplayImage" />
+
       <section>
-        <img src="dp.jpg" alt="Kenbridge" data-testid="slackDisplayImage" />
-      </section>
-      <section>
-        <p data-testid="currentDayOfTheWeek">
-          Current Day: <span id="current-day">fri</span>
+        <p>
+          Current Day:
+          <span data-testid="currentDayOfTheWeek" id="current-day"></span>
         </p>
-        <p data-testid="currentUTCTime">
-          UTC Time: <span id="utc-time">67</span>
+        <p>
+          UTC Time: <span data-testid="currentUTCTime" id="utc-time"></span>
         </p>
-        <p data-testid="myTrack">Track: <span id="my-track">Frontend</span></p>
-        <p data-testid="githubURL">
-          Github Url: <span id="github-url">link</span>
+        <p>Track: <span data-testid="myTrack" id="my-track">Frontend</span></p>
+        <p>
+          Github Url:
+          <a
+            href="https://github.com/ezeaniiandrew/hng-profile-card"
+            target="_blank"
+            data-testid="githubURL"
+            >Link to Repository</a
+          >
         </p>
       </section>
     </main>

@@ -2,7 +2,7 @@
 
 ## Task One
 
-### Task:
+### Task
 Frontend Page Creation with Specific Elements
 
 ### Objective
